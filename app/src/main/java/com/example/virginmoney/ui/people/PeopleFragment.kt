@@ -43,6 +43,7 @@ class PeopleFragment : Fragment() {
         _binding = FragmentPeopleBinding.inflate(inflater, container, false)
 
         viewModel.people.observe(viewLifecycleOwner, Observer { result ->
+            //Implementated sealed classes for success and failure of the code
             result.doIfSuccess {items ->
                 setupUI(items)
             }
@@ -98,6 +99,7 @@ class PeopleFragment : Fragment() {
             }
         })
     }
+    //function to display error message
     private fun showErrorPopup(message: String) {
         val alertDialogBuilder = AlertDialog.Builder(requireContext())
         alertDialogBuilder.setTitle("Error")

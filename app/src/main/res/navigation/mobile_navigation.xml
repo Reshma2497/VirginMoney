@@ -14,7 +14,7 @@
     <fragment
         android:id="@+id/navigation_people"
         android:name="com.example.virginmoney.ui.people.PeopleFragment"
-        android:label="@string/title_people"
+        android:label="@string/title_employee"
         tools:layout="@layout/fragment_people" >
         <action
             android:id="@+id/action_navigation_people_to_peopleDetailsFragment"
@@ -29,6 +29,6 @@
     <fragment
         android:id="@+id/peopleDetailsFragment"
         android:name="com.example.virginmoney.ui.people.details.PeopleDetailsFragment"
-        android:label="People_details"
+        android:label="Employee_details"
         tools:layout="@layout/fragment_people_details" />
 </navigation>

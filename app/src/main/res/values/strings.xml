@@ -3,6 +3,7 @@
     <string name="title_home">Home</string>
     <string name="title_people">People</string>
     <string name="title_rooms">Rooms</string>
+    <string name="title_employee">Employee</string>
 
     <string-array name="rooms_availability">
         <item>All Rooms</item>
